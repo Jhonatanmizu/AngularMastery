@@ -1,3 +1,3 @@
 # Angular Mastery
 
-## In this repo i share everything i steal practicing about angular
+## In this repo i share everything i still practicing about angular
