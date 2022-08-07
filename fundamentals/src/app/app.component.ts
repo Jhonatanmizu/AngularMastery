@@ -17,4 +17,11 @@ export class AppComponent {
 
     this.imageUrl = (data.target as HTMLInputElement).value
   }
+
+  listenSelectImage(event: boolean) {
+    if (event) {
+      console.log(event);
+
+    }
+  }
 }

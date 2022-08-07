@@ -4,4 +4,8 @@
 {{17 + 10}}
 <input type="text" (keyup)="changeImage($event)" [value]="imageUrl">
 
-<img [src]="imageUrl" alt="" srcset="">
+<!-- <img [src]="imageUrl" alt="" srcset=""> -->
+<app-post [postImage]="imageUrl" (imgSelected)="listenSelectImage($event)">
+  <h1>POST</h1>
+</app-post>
+ng
